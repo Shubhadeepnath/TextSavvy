@@ -80,7 +80,7 @@ export default function Form(props) {
           {text.split(" ").length} words & {text.length} characters
         </p>
         <p>{0.008 * text.split(" ").length} Minutes read</p>
-        <h2>Preview</h2>
+        <h2>Preview the text</h2>
 
         <p>{text.length > 0 ? text : "Enter Text to Preview"}</p>
       </div>
